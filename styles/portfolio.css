@@ -112,11 +112,43 @@ img {
   padding: 120px 60px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  margin-top: 10px;
+}
+
+nav .logo-box {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
   }
+
   h2 {
     font-size: 44px;
   }
@@ -133,5 +165,10 @@ img {
   .content-container {
     text-align: center;
     padding: 80px 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
   }
 }
