@@ -49,7 +49,7 @@ img {
   background-size: cover;
   background-position: center;
   max-width: 100%;
-  padding: 160px 60px;
+  padding: 100px 60px;
 }
 
 .hero p {
@@ -65,7 +65,7 @@ img {
 }
 
 .content-container {
-  padding: 160px 60px;
+  padding: 40px;
 }
 
 .content {
@@ -189,14 +189,23 @@ footer .social-links a:hover {
   background: white;
 }
 
+footer p a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer p a:hover {
+  color: var(--seconday-color);
+}
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 46px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   h4 {
@@ -213,9 +222,13 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
     text-align: center;
   }
+
+  .hero p {
+    font-size: 32px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;

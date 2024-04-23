@@ -29,24 +29,27 @@
       src="https://kit.fontawesome.com/a3ff8f6e92.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>SheCodes Portfolio</title>
+    <meta
+      name="description"
+      content="Salome is a front-end engineer based in South Afica"
+    />
+    <title>Front-end developer - Salome Mosikare</title>
   </head>
   <body>
     <div class="navigation-container">
       <nav>
         <div class="logo-box">
-          <a href="/"
+          <a href="/" title="Homepage"
             ><i class="fa-solid fa-snowflake logo-icon"></i>
             <span class="d-none d-md-inline">SMosikare</span></a
           >
         </div>
 
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active" title="Homepage"><a href="/">Home</a></li>
+          <li><a href="/about.html" title="About Salome">About</a></li>
+          <li><a href="/work.html" title="Salome's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Salome">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -56,7 +59,7 @@
       <h1 class="mb-3">Salome Mosikare</h1>
       <h2 class="mb-5">Front-end developer based in South Africa</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
 
@@ -67,7 +70,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/yogurt.png" class="img-fliud" />
+          <img
+            src="/images/yogurt.png"
+            class="img-fliud"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -79,7 +86,9 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
@@ -96,18 +105,28 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" class="img-fliud" />
+          <img
+            src="/images/weather.png"
+            class="img-fliud"
+            alt="Weather project preview"
+          />
         </div>
       </div>
 
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fliud" />
+          <img
+            src="/images/dictionary.png"
+            class="img-fliud"
+            alt="Dictionary project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -119,11 +138,14 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline">Learn more</a>
+              <a href="/work.html" class="btn btn-branding-outline"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
       </div>
+
       <footer>
         <div class="contact-box d-flex justify-content-between mb-5">
           <div>
@@ -131,23 +153,42 @@
             <p class="text-muted mb-0">Let's wok together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-2">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-2"
+              title="Contact Salome"
+              >Contact me</a
+            >
           </div>
         </div>
-        <a href="mailto:salomemosikae25@gmail.com" class="email-link"
+        <a
+          href="mailto:salomemosikae25@gmail.com"
+          class="email-link"
+          title="Email Salome"
           >salomemosikae25@gmail.com</a
         >
         <div class="social-links">
-          <a href="https:/github/SMosikare" target="_blank">
+          <a
+            href="https:/github/SMosikare"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/salome-mosikare-b558b724b/"
+            title="LinkedIn Profile"
             target="_blank"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center">
+          ✌️This project was coded by Salome Mosikare, and it is
+          <a href="https://github.com/SMosikare/portfolio-project"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

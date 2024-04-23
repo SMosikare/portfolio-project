@@ -26,9 +26,33 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>About</title>
+    <meta
+      name="description"
+      content="About Salome. A front-end engineer based in South Afica."
+    />
+    <title>About Salome - Salome Mosikare</title>
   </head>
   <body>
+    <div class="navigation-container">
+      <nav>
+        <div class="logo-box">
+          <a href="/" title="Homepage"
+            ><i class="fa-solid fa-snowflake logo-icon"></i>
+            <span class="d-none d-md-inline">SMosikare</span></a
+          >
+        </div>
+
+        <ul>
+          <li title="Homepage"><a href="/">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Salome">About</a>
+          </li>
+          <li><a href="/work.html" title="Salome's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Salome">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -42,13 +66,64 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">See my projects</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="../images/about-img.jpg" class="img-fluid" alt="" />
+          <img
+            src="../images/about-img.jpg"
+            class="img-fluid"
+            alt="Profile picture"
+          />
         </div>
       </div>
+
+      <footer>
+        <div class="contact-box d-flex justify-content-between mb-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted mb-0">Let's wok together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-2"
+              title="Contact Salome"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:salomemosikae25@gmail.com"
+          class="email-link"
+          title="Email Salome"
+          >salomemosikae25@gmail.com</a
+        >
+        <div class="social-links">
+          <a
+            href="https:/github/SMosikare"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/salome-mosikare-b558b724b/"
+            title="LinkedIn Profile"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center">
+          ✌️This project was coded by Salome Mosikare, and it is
+          <a href="https://github.com/SMosikare/portfolio-project"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
