@@ -24,7 +24,6 @@ h6 {
 h1 {
   font-size: 86px;
   line-height: 1.5;
-  color: var(--branding-color);
 }
 
 h2 {
@@ -49,7 +48,7 @@ img {
   background-size: cover;
   background-position: center;
   max-width: 100%;
-  padding: 100px 60px;
+  padding: 120px;
 }
 
 .hero p {
@@ -65,16 +64,16 @@ img {
 }
 
 .content-container {
-  padding: 40px;
+  padding: 20px 60px;
 }
 
 .content {
   margin: 36px;
 }
-
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  color: var(--branding-color);
 }
 
 .content h2 {
@@ -92,9 +91,9 @@ img {
 
 .btn-branding {
   background: var(--branding-color);
-  color: var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
+  font-weight: 500;
   line-height: 27px;
   padding: 15px 30px;
 }
@@ -108,6 +107,7 @@ img {
   padding: 15px 30px;
 }
 
+.btn-branding:hover,
 .btn-branding-outline:hover {
   color: var(--secondary-color);
 }
@@ -116,10 +116,15 @@ img {
   padding: 120px 60px;
 }
 
+.contact-link a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
+  padding: 20px 100px;
   margin-top: 10px;
 }
 
@@ -152,7 +157,7 @@ footer {
 }
 
 footer .contact-box {
-  background: #11101c;
+  background: #1b192b;
   padding: 40px 120px;
   border-radius: 10px;
 }
@@ -200,12 +205,12 @@ footer p a:hover {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 46px;
+    font-size: 42px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
 
   h4 {
@@ -223,6 +228,7 @@ footer p a:hover {
 
   .hero {
     text-align: center;
+    padding: 80px 20px;
   }
 
   .hero p {
@@ -237,6 +243,14 @@ footer p a:hover {
   .content-container {
     text-align: center;
     padding: 80px 20px;
+  }
+
+  .project-img {
+    max-width: 80%;
+  }
+
+  nav {
+    padding: 20px 15px;
   }
 
   nav a {
