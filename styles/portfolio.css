@@ -210,7 +210,7 @@ footer p a:hover {
   }
 
   h2 {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   h4 {
@@ -218,17 +218,17 @@ footer p a:hover {
   }
 
   footer .contact-box {
-    padding: 20px 60px;
+    padding: 20px 40px;
   }
 
   footer .btn {
     font-size: 14px;
-    padding: 10px 25px;
+    padding: 10px 15px;
   }
 
   .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .hero p {
@@ -250,11 +250,11 @@ footer p a:hover {
   }
 
   nav {
-    padding: 20px 15px;
+    padding: 20px 10px;
   }
 
   nav a {
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px;
   }
 }
